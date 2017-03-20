@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Nabca" >
+
+
+
+    <test name="Firefox test">
+
+        <parameter name="browser" value="firefox" />
+
+        <classes>
+
+
+            <class name="Testcases.SupplierLoginTest" >
+
+
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="IE TEST">
+
+        <parameter name="browser" value="IE" />
+
+        <classes>
+
+
+            <class name="Testcases.SupplierLoginTest" >
+
+
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="chrome test">
+
+        <parameter name="browser" value="chrome" />
+
+        <classes>
+
+
+            <class name="Testcases.SupplierLoginTest" >
+
+
+
+            </class>
+        </classes>
+
+
+    </test>
+
+</suite>
