@@ -25,7 +25,7 @@ public WebDriver driver;
        // System.setProperty("webdriver.ie.driver","C:\\Users\\Sajitha\\IdeaProjects\\Nabca\\src\\test\\java\\resource2\\IEDriverServer.exe");
         //driver=new InternetExplorerDriver();
         // driver=new FirefoxDriver();
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sajitha\\IdeaProjects\\Nabca\\src\\test\\java\\resource2\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/sajitha/IdeaProjects/QA-Nabca/src/test/java/resource2/chromedriver");
        driver = new ChromeDriver();
         b.openBrowser(driver);
         System.out.println("website launched");

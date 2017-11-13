@@ -23,10 +23,10 @@ public class PqSubmn {
 
     @BeforeClass
     public void loginAsSupplier() {
-   System.setProperty("webdriver.ie.driver","C:\\Users\\Sajitha\\IdeaProjects\\Nabca\\src\\test\\java\\resource2\\IEDriverServer.exe");
-driver=new InternetExplorerDriver();
-      // System.setProperty("webdriver.chrome.driver","C:\\Users\\Sajitha\\IdeaProjects\\Nabca\\src\\test\\java\\resource2\\chromedriver.exe");
-      //driver=new ChromeDriver();
+   //System.setProperty("webdriver.ie.driver","C:\\Users\\Sajitha\\IdeaProjects\\Nabca\\src\\test\\java\\resource2\\IEDriverServer.exe");
+//driver=new InternetExplorerDriver();
+       System.setProperty("webdriver.chrome.driver","/Users/sajitha/IdeaProjects/QA-Nabca/src/test/java/resource2/chromedriver");
+      driver=new ChromeDriver();
      // driver = new FirefoxDriver();
         c.openBrowser(driver);
         c.supplierLogin(driver);
