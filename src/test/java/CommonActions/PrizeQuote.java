@@ -17,8 +17,8 @@ public class PrizeQuote {
     public static void createPq(WebDriver driver) throws InterruptedException {
        // WebDriverWait wait=new WebDriverWait(driver,30);
       // wait.until(ExpectedConditions.elementToBeClickable(By.id("show-detail-p-tag-0"))).click();
-        driver.findElement(By.id("show-detail-p-tag-0")).click();
-       // PrizeQuotePage.pdtNameToClick(driver).click();
+       // driver.findElement(By.id("show-detail-p-tag-0")).click();
+       //PrizeQuotePage.pdtNameToClick(driver).click();
         //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         PrizeQuotePage.priceQt(driver).click();
 

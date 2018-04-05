@@ -13,7 +13,7 @@
         <classes>
 
 
-            <class name="Testcases.SupplierLoginTest" >
+            <class name="Testcases.PqSubmn" >
 
 
             </class>
@@ -28,7 +28,7 @@
         <classes>
 
 
-            <class name="Testcases.SupplierLoginTest" >
+            <class name="Testcases.PqSubmn" >
 
 
             </class>
@@ -43,7 +43,7 @@
         <classes>
 
 
-            <class name="Testcases.SupplierLoginTest" >
+            <class name="Testcases.PqSubmn" >
 
 
 

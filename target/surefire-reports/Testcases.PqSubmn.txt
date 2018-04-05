@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Testcases.PqSubmn
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 155.848 sec <<< FAILURE! - in Testcases.PqSubmn
-priceQuotesubmisn(Testcases.PqSubmn)  Time elapsed: 41.934 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Cannot locate option with index: 1
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Davids-MacBook-Pro.local', ip: '10.0.0.151', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at Testcases.PqSubmn.priceQuotesubmisn(PqSubmn.java:40)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.068 sec - in Testcases.PqSubmn
