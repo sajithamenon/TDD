@@ -4,6 +4,8 @@ import org.testng.annotations.DataProvider;
 
 /**
  * Created by Sajitha on 8/26/2016.
+ *
+ * /Users/sajitha/IdeaProjects/QA-Nabca/PQRS
  */
 public class SupplierLogin {
 
